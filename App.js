@@ -41,7 +41,7 @@ function App() {
   }
 
   return (
-    <>
+    <> 
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input ref={todoNameRef} type="text" />
       <button onClick={addTodo}>Add Todo</button>
